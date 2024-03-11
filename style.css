@@ -1,0 +1,45 @@
+nav {
+  width: 500px;
+  height: 100px;
+  margin: 20px auto;
+}
+.container {
+  background-color: aliceblue;
+}
+
+.container2 {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+button {
+  color: black;
+  background-color: green;
+}
+
+.smallbox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(14, 172, 145);
+  margin-left: 25%;
+}
+.smallbox img {
+  width: 100px;
+  height: 100px;
+}
+
+.box {
+  background-color: rgb(8, 77, 77);
+  margin: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 5px;
+  width: 200px;
+  height: 300px;
+}
+h3,
+h5 {
+  padding: 10px;
+}
